@@ -23,6 +23,8 @@ class Settings(BaseSettings):
     openai_chat_model: str = 'gpt-4.1-mini'
     openai_embed_model: str = 'text-embedding-3-small'
     openai_vision_model: str = 'gpt-4.1-mini'
+    groq_api_key: str
+    groq_chat_model: str = "llama-3.3-70b-versatile"
     api_token: str = ''
     allowed_origins: str = 'http://localhost:8000,http://127.0.0.1:8000'
     model_config = SettingsConfigDict(env_file='.env', extra='ignore')
