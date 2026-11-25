@@ -6,7 +6,6 @@ An AI-powered healthcare information platform built using agentic workflows and 
 
 Built with a modular backend architecture, the platform integrates LangGraph for agent orchestration, Pinecone for semantic vector retrieval, FastAPI for backend services, and multimodal AI for image and voice interactions.
 
-> **Disclaimer:** This project is an AI engineering implementation for educational and research purposes. It is not a clinically validated diagnostic system and does not replace professional medical advice.
 
 ---
 
